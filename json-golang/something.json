@@ -1,0 +1,14 @@
+{
+    "name":"shatvik",
+    "married":false,
+    "age":22,
+    "address":[{
+        "street":123,
+        "city": "Bangalore"
+    },{
+        "street":234,
+        "city": "Punjab"
+    }
+    ],
+    "marks":[1,2,3,4,5,6,7,8]
+}
