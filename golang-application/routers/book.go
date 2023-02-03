@@ -13,7 +13,7 @@ func Router() *gin.Engine {
 	}
 	router.GET("/books", api.GetBooks)
 	router.POST("/books", api.SaveBook)
-	router.DELETE("/books", api.DeleteBookByID)
-	router.PUT("/books", api.UpdateBookByID)
+	router.DELETE("/books/:id", api.DeleteBookByID)
+	router.PUT("/books/:id", api.UpdateBookByID)
 	return router
 }
