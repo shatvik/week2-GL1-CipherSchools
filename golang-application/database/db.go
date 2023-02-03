@@ -4,6 +4,7 @@ import (
 	"log"
 
 	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/shatvik/week2-GL1-CipherSchools.git/models"
 )
 
